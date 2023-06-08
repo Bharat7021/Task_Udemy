@@ -11,11 +11,13 @@ public class BS {
             } else {
                 return mid+1;
             }
+            Math.
         }
         // int res = search(array, x, s, e);
         if(array[s] == x) return s+1;
         return s; 
     }
+
 
     // private static int search(int[] array, int x, int s, int e) {
     // int resu = (s+e)/2;
