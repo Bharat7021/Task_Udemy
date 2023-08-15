@@ -1,4 +1,3 @@
-package Recursion;
 
 public class CountOccurrences {
     public static void main(String[] args) {
