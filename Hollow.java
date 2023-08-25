@@ -6,6 +6,7 @@ public class Hollow {
         int n = sc.nextInt();
         int m = sc.nextInt();
         char[] c = new char[9];
+        System.out.println(Math.sqrt(Math.pow(2, 31)));
         System.out.println(c[0]);
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= m; j++) {
