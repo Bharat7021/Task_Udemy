@@ -1,4 +1,3 @@
-package Recursion;
 
 public class SortCheck {
     public static void main(String[] args) {
