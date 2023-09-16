@@ -8,7 +8,6 @@ public class MajorityElement169 {
         for(int i = 0; i < n; i++){
             a[i] = sc.nextInt();
         }
-        Solution.majorityElement(a);
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }
