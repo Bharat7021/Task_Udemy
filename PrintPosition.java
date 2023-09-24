@@ -1,4 +1,3 @@
-package Recursion;
 
 public class PrintPosition {
     public static void main(String[] args) {
