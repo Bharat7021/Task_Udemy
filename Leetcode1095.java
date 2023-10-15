@@ -48,3 +48,13 @@ class Solution {
         return low; // Return the index where the target should be or would be inserted.
     }
 }
+
+//below class is a sample class not the actual class used
+class MountainArray{
+    public int length(){
+        return 0;
+    }
+    public int get(int index){
+        return 0;
+    }
+}
