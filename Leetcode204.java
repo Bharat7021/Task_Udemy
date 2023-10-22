@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Leetcode204 {
-    public int countPrimes(int n) {
+    public int countPrime(int n) {
         if(n<2){
             return 0 ;
         }
