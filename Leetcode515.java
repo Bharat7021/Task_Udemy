@@ -18,13 +18,13 @@ public class Leetcode515 {
         if(currentnode == null)
             return;
         
-        if(level==ans.size())
-            ans.add(currentnode.val);
-        else
-            ans.set(level , Math.max(ans.get(level) , currentnode.val));
+        // if(level==ans.size())
+            // ans.add(currentnode.val);
+        // else
+            // ans.set(level , Math.max(ans.get(level) , currentnode.val));
         
-        largest(currentnode.left , ans , level+1);
-        largest(currentnode.right , ans , level+1);
+        // largest(currentnode.left , ans , level+1);
+        // largest(currentnode.right , ans , level+1);
         
     }
 }
