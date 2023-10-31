@@ -9,7 +9,7 @@ public class Leetcode1389 {
                 newNums.add(index[i], nums[i]);
             }
             for (int i = 0; i < res.length; i++) {
-                res[i] = arr.get(i);
+                res[i] = newNums.get(i);
             }
             return res;
         }
